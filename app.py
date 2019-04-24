@@ -47,4 +47,5 @@ def save():
 def doge():
     return '1 doge 2 doge 3 doge WOW'
 
-app.run(debug=True, host='0.0.0.0', port=8000)
+if __name__ == "main":
+    app.run(debug=True, host='0.0.0.0', port=8000)
